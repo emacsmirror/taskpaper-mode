@@ -1,6 +1,6 @@
 ;;; taskpaper-mode.el --- Major mode for TaskPaper files -*- lexical-binding: t; -*-
 
-;; Copyright 2016-2025 Dmitry Safronov
+;; Copyright 2016-2026 Dmitry Safronov
 
 ;; Author: Dmitry Safronov <saf.dmitry@gmail.com>
 ;; Maintainer: Dmitry Safronov <saf.dmitry@gmail.com>
