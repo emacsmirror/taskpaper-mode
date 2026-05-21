@@ -368,7 +368,7 @@ TaskPaper mode also has experimental support for inline Markdown links in form `
 
 This descriptive syntax is useful for long links which can interrupt reading. If markup hiding is enabled (see the [Customization](#customization) section), only the description part is displayed as hyperlink making the link more readable. You can hover the mouse pointer over the description text to see the destination part. The destination part can include up to two levels of balanced, nested parentheses. Spaces in file links must be backslash-escaped.
 
-Links inside projects and tasks are supported although not encouraged.
+Links inside projects and tasks are supported but generally discouraged.
 
 If the point is on a link the command `C-c C-o` or `mouse-1` (`taskpaper-open-link-at-point`) will call the system command to open the URI. Furthermore, it will start composing a message in email links or visit local and remote text files in file links with Emacs and select a suitable application for local non-text files. Classification of files is based on file extension only. For non-specified extensions the system command to open files, like `open` on MS Windows and macOS, or the command specified in the mailcaps on GNU/Linux will be used. For more details see the user options `taskpaper-file-apps` and `taskpaper-open-non-existing-files`.
 
